@@ -1,0 +1,221 @@
+body{
+    background: #fffff8;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    /*background: linear-gradient(#f1f6fccc, #bacee9cc);*/
+    background: url(icons/homepage2.1.jpg) no-repeat;
+}
+
+#app{
+    display: grid;
+    grid-auto-rows: minmax(120px, auto);
+    /* grid-template-columns:  */
+    height: auto;
+    color: black;
+    justify-content: center;
+    grid-gap: 1em;
+    
+}
+
+.holder{
+    font-size: larger;
+    justify-content: center;
+}
+
+.entry{
+    background: #d8e8f56e;
+    border: 2px solid #f9feff;
+    border-radius: 20px;
+    box-shadow: 10px 12px 15px rgba(68, 68, 68, 0.411);
+    width: 500px;
+}
+
+#entryHolder{
+    color: rgb(6, 40, 83);
+    display: block;
+    height: auto;
+    width: 300px;
+    font-size: medium;
+   
+}
+
+#planHolder{
+    background: #d8e8f56e;
+    border: 2px solid #f9feff;
+    border-radius: 20px;
+    box-shadow: 10px 12px 15px rgba(68, 68, 68, 0.411);
+    height: 150px;
+    width: auto;
+    text-align: start;
+    padding-left: 5px;
+    font-size: medium;
+    margin-bottom: 20px;
+}
+
+#zip {
+    background: linear-gradient(#f1f6fc69, #bacee969); 
+    border: 2px solid #f9feff;
+    border-radius: 20px;
+    box-shadow: 10px 12px 15px #44444469;
+    color: rgb(1, 86, 119);
+    text-align: center;
+    font-size: 26px;
+}
+
+#date{
+    color: rgb(1, 86, 119);
+    font-size: 22px;
+    float: left;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+#city{
+    color: rgb(1, 86, 119);
+    font-size: 22px;
+    position: relative;
+    float: left;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+#country{
+    color: rgb(1, 86, 119);
+    font-size: 22px;
+    position: relative;
+    float: left;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    
+}
+
+#temp{
+    color: rgb(1, 86, 119);
+    position: relative;
+    font-size: 30px;
+    float: right;
+    padding-top: 10px;
+}
+
+#iconID{
+    position: relative;
+    float: right;
+    padding-left: 100px;
+}
+
+#description{
+    color: rgb(1, 86, 119);
+    position: relative;
+    float: right;
+    font-size: 22px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#content{
+    color: rgb(1, 86, 119);
+    font-size: 22px;
+}
+
+#feelings{
+    color: rgb(1, 86, 119);
+    font-size: 22px;
+    padding-left: 5px;
+}
+
+/*----------------TITLE*/
+.headline {
+    display: grid;
+    text-align: center;
+    /*background: linear-gradient(#f1f6fccc, #bacee9cc);*/
+    height: 100hv;
+    color: white;
+    margin:auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.title{
+    display: block;
+    text-align: start;
+    color: white;
+    margin: auto;
+    font-size: 24px;
+    padding: 15px;
+    text-shadow: 2px 2px 5px #444;
+}
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label{
+    display:block;
+    color:white;
+}
+
+input{
+    display:block;
+    height: 60px;
+    width: 220px;
+    background:#cccccc;
+    color: rgb(1, 86, 119);
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+
+button{
+    background: #ffffff5d;
+    border: 2px solid #f9feff;
+    box-shadow: 10px 12px 15px rgba(68, 68, 68, 0.411);
+    width: 120px;
+    height: 60px;
+    border-radius: 20px;
+    /*box-shadow: 10px 12px 15px #44444469;*/
+    color: rgba(238, 16, 153, 0.671);
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    
+    /*box-shadow: 2px 4px 5px #444;*/
+}
+
+h1{
+    font-size: 32px;
+    text-shadow: 2px 2px 5px #444;
+}
+h2{
+    font-size: 22px;
+    text-shadow: 2px 2px 5px #444;
+}
+
+textarea{
+    background: #d8e8f56e;
+    border: 2px solid #f9feff;
+    border-radius: 20px;
+    box-shadow: 10px 12px 15px rgba(68, 68, 68, 0.411);
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+/* Style for Placeholder Text*/
+::placeholder { /* Firefox, Chrome, Opera */ 
+    color: #0000; 
+    font-family: 'Oswald', sans-serif;
+
+} 
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+    color: #f0d43a; 
+    font-family: 'Oswald', sans-serif;
+
+} 
+  
+::-ms-input-placeholder { /* Microsoft Edge */ 
+    color: #f0d43a; 
+    font-family: 'Oswald', sans-serif;
+
+} 
