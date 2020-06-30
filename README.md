@@ -3,7 +3,7 @@
 ## Overview
 This project requires you to create an asynchronous web app that uses Web API and user data to dynamically update the UI. 
 ## Examples from the project
-<img src="https://github.com/Diana-Szalai/Project-3/blob/master/website/icons/image-project1.JPG?raw=true" width="306" height="266" />
+<img src="https://github.com/Diana-Szalai/Project-3/blob/master/website/icons/image-project1.JPG?raw=true" width="423" height="266" />
 <img src="https://github.com/Diana-Szalai/Project-3/blob/master/website/icons/image-project2.JPG?raw=true" width="423" height="264" />
 
 ## Table of Contents
